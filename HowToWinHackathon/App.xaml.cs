@@ -8,7 +8,7 @@ namespace HowToWinHackathon
         {
             InitializeComponent();
 
-            MainPage = new HowToWinHackathonPage();
+            MainPage = new PickPhoto();
         }
 
         protected override void OnStart()

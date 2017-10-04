@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HowToWinHackathon.PickPhoto">
-	<ContentPage.Content>
-        <StackLayout>
-            <Button Text="I love to see your emotion"/>
-        </StackLayout>
+    <ContentPage.Content>
+    <Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="9*"/>
+        <RowDefinition Height="1*"/>
+    </Grid.RowDefinitions>
+    <Grid>
+    <Label x:Name="Guide" Text="Click a beautiful selfie :D" HorizontalOptions="Center" VerticalOptions="Center"/>
+    <Image x:Name="MyImage" Grid.Row="0"/>
+    </Grid>
+    <Grid Grid.Row="1" Margin="10,5,10,5">
+           <Button x:Name="ActionButton" Text="Take a Photo" Clicked="Handle_Clicked"/> 
+    </Grid>
+    </Grid>
 	</ContentPage.Content>
 </ContentPage>

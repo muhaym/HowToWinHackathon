@@ -7,6 +7,7 @@
         <RowDefinition Height="1*"/>
     </Grid.RowDefinitions>
     <Grid>
+    <ActivityIndicator IsEnabled="{Binding isbusy}" IsVisible="{Binding isbusy}" IsRunning="{Binding isbusy}" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="25" WidthRequest="25"/>
     <Label x:Name="Guide" Text="Click a beautiful selfie :D" HorizontalOptions="Center" VerticalOptions="Center"/>
     <Image x:Name="MyImage" Grid.Row="0"/>
     </Grid>

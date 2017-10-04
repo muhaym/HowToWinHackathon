@@ -6,6 +6,7 @@ Dos:
  * Incorporate Maximum Plugins and Existing Libraries to do heavy lifting
  * Keep these libraries in mind
  * Start Simple and add features one by one. Make sure you have MVP (Minimum Viable Product) ready for presentation.
+ * Use version controlling like git to revert back when you mess things up :D
  
  	 [System.Net.Http](https://www.nuget.org/packages/System.Net.Http/) for consuming API services  
  	[NewtonSoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) for serializing and deserializing data to and from JSON (Javascript Object Notation)  
